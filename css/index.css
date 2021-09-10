@@ -59,7 +59,7 @@ body{
     text-align: center;
     color: antiquewhite;
     font-size: 2.5rem;
-    margin: 50px 50px;
+    margin: 50px;
 }
 .content h2,h3{
     color: antiquewhite;
@@ -74,11 +74,39 @@ body{
     
 }
 .sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     width: 40%;
     height: 100%;
     background-color:antiquewhite;
 }
-
+.sidebar h1{
+    color: #333;
+    font-size: 2.5rem;
+    padding: 0 50px;
+    text-align: center;
+}
+.card{
+    width: 50%;
+    height: 60%;
+    border: 1px solid #333;
+    border-radius: 9px;
+    background-image: url(/media/images/test.png);
+    background-size: cover;
+}
+.one{
+    background-image: url(/media/images/one.png);
+    background-size: cover;
+}
+.card::after{
+    content: "";
+    color:rgba(0, 255, 255, 0.575);
+    width: 100%;
+    height: 50%;
+    
+}
 .footer{
     background-color:antiquewhite
 }
