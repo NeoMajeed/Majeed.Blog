@@ -44,11 +44,35 @@ body{
     color: antiquewhite;
 }
 .main{
+    display:flex;
+    flex-direction: row;
     background-color: #333;
 }
 
+.content{
+    padding: 15px 50px;
+    width: 60%;
+    height: 100vh;
+    background-color: #333;
+}
+.content h1{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 40px;
+}
+.content p{
+    color: rgb(31, 212, 212);
+    font-size:large
+}
+.content a{
+    color:darkcyan;
+    font-weight: 600;
+    
+}
 .sidebar{
-    background-color: darkcyan;
+    width: 40%;
+    height: 100vh;
+    background-color:antiquewhite;
 }
 
 .footer{
