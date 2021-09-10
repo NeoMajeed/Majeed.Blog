@@ -52,17 +52,21 @@ body{
 .content{
     padding: 15px 50px;
     width: 60%;
-    height: 100vh;
+    height: 100%;
     background-color: #333;
 }
 .content h1{
     text-align: center;
     color: antiquewhite;
-    font-size: 40px;
+    font-size: 2.5rem;
+    margin: 50px 50px;
+}
+.content h2,h3{
+    color: antiquewhite;
 }
 .content p{
     color: rgb(31, 212, 212);
-    font-size:large
+    font-size:1.2rem;
 }
 .content a{
     color:darkcyan;
@@ -71,7 +75,7 @@ body{
 }
 .sidebar{
     width: 40%;
-    height: 100vh;
+    height: 100%;
     background-color:antiquewhite;
 }
 
