@@ -66,11 +66,15 @@ body{
     .container{
         display: grid;
         grid-template-columns: 2fr 1fr 1fr 1fr;
-        grid-template-rows: 8% 84% 8%;
+        grid-template-rows: 1fr 8fr 1fr;
         grid-template-areas:
         "nav nav nav nav"
         "main main sd sd"
         "ft ft ft ft";
+ }
+
+ .nav{
+     font-size: medium;
  }
 
  .content h1{
@@ -97,6 +101,10 @@ body{
         "ft ft ft ft ft";
  }
  
+ .nav{
+     font-size: large;
+ }
+
  .content h1{
      font-size: 40px;
  }
