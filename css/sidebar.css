@@ -1,0 +1,77 @@
+
+.sidebar{
+    grid-area: sd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color:antiquewhite;
+    overflow: auto;
+}
+
+.sidebar h1{
+    margin: 30px 10px 0 10px;
+    color: #333;
+    font-size: 2.5rem;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.card{
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 70%;
+    border: 1px solid #333;
+    border-radius: 9px;
+    
+}
+.short-text h3{
+    color:darkcyan;
+    padding-left: 20px;
+}
+
+.one .img{
+    border-radius: 0 9px 9px 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/media/images/one.jpg);
+    background-size: cover;
+}
+
+.two .img{
+    border-radius: 0 9px 9px 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/media/images/two.png);
+    background-size: cover;
+}
+
+.three .img{
+    border-radius: 0 9px 9px 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/media/images/three.jpg);
+    background-size: cover;
+}
+
+.card button{
+    padding: 8px 25px;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 30px 30px 30px 60px;
+    cursor: pointer;
+    border: none;
+    font-size: medium;
+    transition-duration: 0.4s;
+}
+
+.card button:hover{
+    background-color: darkcyan;
+}
+
+.card a{
+    color:antiquewhite;
+    text-decoration: none;
+}
