@@ -36,7 +36,7 @@
     border-radius: 0 9px 9px 0;
     width: 100%;
     height: 100%;
-    background-image: url(./media/images/one.jpg);
+    background-image: url(../media/images/one.jpg);
     background-size: cover;
 }
 
@@ -44,7 +44,7 @@
     border-radius: 0 9px 9px 0;
     width: 100%;
     height: 100%;
-    background-image: url(./media/images/two.png);
+    background-image: url(../media/images/two.png);
     background-size: cover;
 }
 
@@ -52,7 +52,7 @@
     border-radius: 0 9px 9px 0;
     width: 100%;
     height: 100%;
-    background-image: url(./media/images/three.jpg);
+    background-image: url(../media/images/three.jpg);
     background-size: cover;
 }
 
